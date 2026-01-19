@@ -5,7 +5,7 @@
 
 1.  **豆包语音识别 2.0**: **(推荐)** 火山引擎最新一代旗舰模型，识别率高，响应速度快。
 2.  **流式语音识别大模型**: 通用大模型版本，适用于长语音场景。
-3.  **流式语音识别**: 基础版本，适用于短指令和简单交互。
+3.  **一句话识别(1分钟内)**: 基础版本，适用于短指令和简单交互。
 
 ---
 
@@ -127,7 +127,7 @@ class MyViewModel: VolcAsrDelegate {
 | :--- | :--- | :--- | :--- |
 | **`.seedAsr`** | **豆包语音识别 2.0** | `volc.seedasr.sauc.duration` | Seed V3 |
 | **`.bigModel`** | **流式语音识别大模型** | `volc.bigasr.sauc.duration` | Seed V3 |
-| **`.standard`** | **流式语音识别** | `volcengine_input_common` | WebSocket V2 |
+| **`.standard`** | **一句话识别(1 分钟内)** | `volcengine_input_common` | WebSocket V2 |
 
 ---
 

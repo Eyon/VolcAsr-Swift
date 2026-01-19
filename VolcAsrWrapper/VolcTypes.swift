@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - 模型类型定义
 public enum VolcAsrModel {
-    /// 标准流式版 (WebSocket V2)
+    /// 一句话识别-1 分钟版 (WebSocket V2)
     /// 适用于：短语音、指令交互
     case standard
     

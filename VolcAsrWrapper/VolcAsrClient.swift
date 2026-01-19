@@ -196,7 +196,7 @@ public class VolcAsrClient: NSObject, SpeechEngineDelegate {
         do {
             guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] else { return }
             var text: String?
-            var isFinal = false
+            let isFinal = false
             
             // 解析标准版 (V2 - 结果在数组中)
             if let resultWrap = json["result"] as? [[String: Any]],
